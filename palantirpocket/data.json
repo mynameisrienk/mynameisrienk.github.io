@@ -1,0 +1,20 @@
+palantirCallback([
+    {
+        "title": "Some random name",
+        "url": "something",
+        "description": null,
+        "icon": null
+    },
+    {
+        "title": "Another title",
+        "description": "This does something else",
+        "url": "http://www.google.com/",
+        "icon": null
+    },
+    {
+        "title": "Launch Center Pro",
+        "description": "Open Launch Center Pro",
+        "url": "javascript:window.location='http://contrast.co/launch-center-pro/';",
+        "icon": null
+    }
+]);
