@@ -10,8 +10,8 @@
  * caching. This needs to be remove prior to commit for production!
  **/
 
-var PP_JSON  = PP_JSON || 'http://mynameisrienk.github.io/palantirpocket/data.json?' + Date.now();
-var PP_CSS   = 'http://mynameisrienk.github.io/palantirpocket/stylesheet.css?' + Date.now();
+var PP_JSON  = PP_JSON || '//mynameisrienk.github.io/palantirpocket/data.json?' + Date.now();
+var PP_CSS   = '//mynameisrienk.github.io/palantirpocket/stylesheet.css?' + Date.now();
 var PP_ICON  = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAArklEQVR4XqWQQQqDQAxFf1zY21k3XsAeoHgYu7NasV5QqM5mUlACw5RMWvrh7T6Pn2TMjH/IEGSaJtYgIoRIQsFurKrqg2VZMI4jI04s8P7obJsTICmKM4bhIRJ9QSplWaLvB04s8ADiW4975/m5s64vdN2df1pQ15cQ6SkLojjnQqSnC4hgYAiOUAJbYCA9/YkW9hOJdOwFIOT5SQWg1AJG295MvFcETXOlbxHBG8Vy2fHIq9l6AAAAAElFTkSuQmCC';
 
 /* Insert DOM Elements
