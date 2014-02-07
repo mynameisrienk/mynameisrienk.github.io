@@ -28,5 +28,11 @@ palantirCallback([
         "description": "Open Launch Center Pro",
         "url": "javascript:window.location='launch://';",
         "icon": null
+    },
+    {
+      "title": "Add URL to Dropbox File",
+      "description": "Prepend URL to to-read.md in Dropbox using Launch Center Pro",
+      "url": "javascript:(function(){var%20d=new%20Date().toUTCString();window.location='launch://dropbox/prepend?text={{'+d+'%20'+(window.location.href)+'}}&path=/Apps/Launch%20Center%20Pro/&name=to-read.md';})();",
+      "icon": null
     }
 ]);
